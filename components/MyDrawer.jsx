@@ -7,6 +7,7 @@ import Notifications from "./Notifications";
 import { SafeAreaView } from "react-native-safe-area-context";
 import FormExample from "./ReactFormExample";
 import CountDown from "./CountDown";
+import MyFrom from "./FormEx";
 
 const Drawer = createDrawerNavigator();
 const MyDrawer = () => {
@@ -22,6 +23,7 @@ const MyDrawer = () => {
                     <Drawer.Screen name="Notifications" component={Notifications} />
                     <Drawer.Screen name="FormExample" component={FormExample} />
                     <Drawer.Screen name="Count Down" component={CountDown} />
+                    <Drawer.Screen name="MyForm" component={MyFrom} />
                 </Drawer.Navigator>
             </NavigationContainer>
         </>

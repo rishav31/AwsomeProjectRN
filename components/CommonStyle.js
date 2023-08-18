@@ -23,6 +23,15 @@ const styles = StyleSheet.create({
         justifyContent: 'center', 
         alignItems: 'center' 
     },
+    pmyadding:{
+      padding:4,
+      borderColor: 'black',
+      borderWidth: 2,
+      backgroundColor: 'lightgrey',
+      margin: 6
+
+    },
+
   });
 
 
