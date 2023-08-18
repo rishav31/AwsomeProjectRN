@@ -2,9 +2,10 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 # Getting Started
 
-## Setting Up Project In Local System Requisite
+### Setting Up Project In Local System Requisite
 First clone project into your system
-# Do run the following command in terminal:
+#### Do run the following command in terminal:
+```bash
 npm install
 cd ios 
 pod install
@@ -12,6 +13,7 @@ cd..
 cd android
 ./gradlew clean
 cd ..
+```
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
